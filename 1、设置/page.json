@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor":"#ffff00",      
+  "navigationBarTextStyle":"black",             
+  "navigationBarTitleText":"api demo",           
+  "backgroundColor":"#ccc",                  
+  "backgroundTextStyle":"light",                 
+  "enablePullDownRefresh":true,                 
+  "disableScroll":false,                         
+  "onReachBottomDistance":50                     
+}
