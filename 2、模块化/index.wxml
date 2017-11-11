@@ -1,0 +1,10 @@
+<button bindtap="clickTap">click</button>
+<template name="tpl">
+  <view class='id'>it is tpl!</view>
+  <view>id:{{id}}</view>
+  <view>name:{{username}}</view>
+</template>
+<template is="tpl" data="{{...userinfo}}"></template>
+<import src="tpl.wxml"/>
+<template is="tpl1" data="{{...userinfo}}"></template>
+<include src="tpl2.wxml" />
