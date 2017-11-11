@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/index/index", 
+    "pages/frame/frame",
+    "pages/api/api",
+    "pages/assembly/assembly"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff", 
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",  
+    "backgroundColor":"#f3f5f7",      
+    "enablePullDownRefresh":true,    
+    "onReachBottomDistance":50       
+  },
+  "tabBar":{
+    "color":"#bfbfbf",               
+    "selectedColor":"#1afa29",      
+    "backgroundColor":"#f3f5f7",        
+    "borderStyle":"black",           
+    "position":"bottom",              
+    "list":[{                   
+      "pagePath":"pages/index/index",
+      "text":"首页",                 
+      "iconPath":"images/index.png",  
+      "selectedIconPath":"images/indexHL.png" 
+    },{ 
+      "pagePath": "pages/frame/frame", 
+      "text": "框架", 
+      "iconPath": "images/frame.png", 
+      "selectedIconPath": "images/frameHL.png" 
+    },
+    {
+      "pagePath": "pages/api/api",
+      "text": "api",
+      "iconPath": "images/api.png",
+      "selectedIconPath": "images/apiHL.png"
+    },
+    {
+      "pagePath": "pages/assembly/assembly",
+      "text": "组件",
+      "iconPath": "images/assembly.png",
+      "selectedIconPath": "images/assemblyHL.png"
+    }]
+  },
+  "networkTimeout": {
+    "request":60000,          
+    "connectSocket": 60000,    
+    "uploadFile":60000,        
+    "downloadFile":60000        
+  },
+  "debug":true
+}
